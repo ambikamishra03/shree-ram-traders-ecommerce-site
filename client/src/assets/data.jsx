@@ -1,4 +1,4 @@
-const disposalItems = [
+export const disposalItems = [
   {
     id: 1,
     name: "Buffet Plate",
@@ -350,3 +350,4 @@ const disposalItems = [
     pricePerItem: 0.5
   }
 ];
+

@@ -1,4 +1,6 @@
 import Navbar from "../components/Navbar";
+import { disposalItems } from "../assets/data.jsx";
+import ProductCard from "../components/ProductCard.jsx"
 const Home = () => {
 
   return (
@@ -8,6 +10,11 @@ const Home = () => {
      {/* Navbar
      each product with image price and quantity
      footer */}
+     <div className="card-container">
+      { disposalItems.map((item)=>(
+        <ProductCard key={item.id} item={item}/>
+      ))}
+     </div>
     </>
   )
 }
