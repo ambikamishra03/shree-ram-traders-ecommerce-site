@@ -5,42 +5,22 @@ export const disposalItems = [
     image: "/images/buffet-plate.jpg",
     description: "Heavy-duty disposable plate for weddings and parties.",
     material: "Paper",
-    size: "12 inch",
+    size: "16 inch",
     color: "Silver",
     pricePerItem: 8
   },
   {
     id: 2,
-    name: "Small Paper Plate",
-    image: "/images/small-paper-plate.jpg",
-    description: "Compact plate ideal for snacks and sweets.",
-    material: "Paper",
-    size: "6 inch",
-    color: "White",
-    pricePerItem: 2
-  },
-  {
-    id: 3,
-    name: "Medium Paper Plate",
-    image: "/images/medium-paper-plate.jpg",
-    description: "Perfect size for breakfast and light meals.",
-    material: "Paper",
-    size: "8 inch",
-    color: "Silver",
-    pricePerItem: 3
-  },
-  {
-    id: 4,
-    name: "Large Paper Plate",
-    image: "/images/large-paper-plate.jpg",
+    name: "Silver Paper Plate",
+    image: "/images/silver-plate.jpg",
     description: "Large serving plate for complete meals.",
     material: "Paper",
-    size: "10 inch",
+    size: "16 inch",
     color: "Silver",
     pricePerItem: 5
   },
   {
-    id: 5,
+    id: 3,
     name: "Water Glass",
     image: "/images/water-glass.jpg",
     description: "Disposable plastic glass for serving water.",
@@ -50,7 +30,7 @@ export const disposalItems = [
     pricePerItem: 1
   },
   {
-    id: 6,
+    id: 4,
     name: "Cold Drink Glass",
     image: "/images/cold-drink-glass.jpg",
     description: "Strong disposable glass for soft drinks.",
@@ -60,7 +40,7 @@ export const disposalItems = [
     pricePerItem: 2
   },
   {
-    id: 7,
+    id: 5,
     name: "Tea Glass",
     image: "/images/tea-glass.jpg",
     description: "Small cup ideal for tea and coffee.",
@@ -70,7 +50,7 @@ export const disposalItems = [
     pricePerItem: 1
   },
   {
-    id: 8,
+    id: 6,
     name: "Coffee Cup",
     image: "/images/coffee-cup.jpg",
     description: "Disposable cup suitable for hot beverages.",
@@ -78,6 +58,26 @@ export const disposalItems = [
     size: "200 ml",
     color: "Brown",
     pricePerItem: 3
+  },
+   {
+    id: 7,
+    name: "Cotton Candy Stick",
+    image: "/images/cotton-candy-stick.jpg",
+    description: "Wooden sticks for cotton candy.",
+    material: "Wood",
+    size: "6 inch",
+    color: "Brown",
+    pricePerItem: 1
+  },
+   {
+    id: 8,
+    name: "Paper Pouch",
+    image: "/images/paper-pouch.jpg",
+    description: "Small brown paper pouch for corn.",
+    material: "Paper",
+    size: "small",
+    color: "Brown",
+    pricePerItem: 1
   },
   {
     id: 9,
@@ -101,11 +101,11 @@ export const disposalItems = [
   },
   {
     id: 11,
-    name: "Plastic Knife",
-    image: "/images/plastic-knife.jpg",
-    description: "Disposable knife for food cutting.",
+    name: "Rose print glass",
+    image: "/images/rose-print-glass.jpg",
+    description: "Water glass with rose printing",
     material: "Plastic",
-    size: "6 inch",
+    size: "250 ml",
     color: "White",
     pricePerItem: 1
   },
@@ -130,35 +130,35 @@ export const disposalItems = [
     pricePerItem: 120
   },
   {
-    id: 14,
-    name: "Small Bowl",
-    image: "/images/small-bowl.jpg",
-    description: "Disposable bowl for sweets and snacks.",
-    material: "Paper",
-    size: "4 inch",
-    color: "Silver",
-    pricePerItem: 2
-  },
-  {
-    id: 15,
-    name: "Medium Bowl",
-    image: "/images/medium-bowl.jpg",
-    description: "Ideal bowl for curries and desserts.",
-    material: "Paper",
-    size: "5 inch",
-    color: "Silver",
-    pricePerItem: 3
-  },
-  {
-    id: 16,
-    name: "Large Bowl",
-    image: "/images/large-bowl.jpg",
-    description: "Large serving bowl for functions.",
-    material: "Paper",
-    size: "6 inch",
-    color: "Silver",
-    pricePerItem: 5
-  },
+  id: 14,
+  name: "Small Bowl",
+  image: "/images/fulki-bowl.jpg",
+  description: "Disposable bowl ideal for fulki, golgappa and snacks.",
+  material: "Paper",
+  size: "4 inch",
+  color: "Silver",
+  pricePerItem: 2
+},
+{
+  id: 15,
+  name: "Medium Plate",
+  image: "/images/chila-plate.jpg",
+  description: "Medium disposable plate for chila, dosa and snacks.",
+  material: "Paper",
+  size: "6 inch",
+  color: "Silver",
+  pricePerItem: 3
+},
+{
+  id: 16,
+  name: "Chaumin Plate",
+  image: "/images/chaumin-plate.jpg",
+  description: "Large plate suitable for chowmein and fast food serving.",
+  material: "Paper",
+  size: "7 inch",
+  color: "Silver",
+  pricePerItem: 5
+},
   {
     id: 17,
     name: "Compartment Plate",
@@ -172,10 +172,10 @@ export const disposalItems = [
   {
     id: 18,
     name: "Dona Bowl",
-    image: "/images/dona-bowl.jpg",
+    image: "/images/6-inch-bowl.jpg",
     description: "Traditional bowl for chaat and snacks.",
     material: "Paper",
-    size: "4 inch",
+    size: "6 inch",
     color: "Brown",
     pricePerItem: 1
   },
@@ -192,32 +192,12 @@ export const disposalItems = [
   {
     id: 20,
     name: "Ice Cream Cup",
-    image: "/images/icecream-cup.jpg",
+    image: "/images/ice-creame-cup.jpg",
     description: "Small cup suitable for ice cream servings.",
     material: "Paper",
     size: "100 ml",
     color: "Printed",
     pricePerItem: 2
-  },
-  {
-    id: 21,
-    name: "Burger Box",
-    image: "/images/burger-box.jpg",
-    description: "Disposable box for burgers and sandwiches.",
-    material: "Paper",
-    size: "5 inch",
-    color: "Brown",
-    pricePerItem: 8
-  },
-  {
-    id: 22,
-    name: "Pizza Box",
-    image: "/images/pizza-box.jpg",
-    description: "Strong box for pizza takeaway packaging.",
-    material: "Corrugated Paper",
-    size: "10 inch",
-    color: "Brown",
-    pricePerItem: 20
   },
   {
     id: 23,
@@ -240,15 +220,15 @@ export const disposalItems = [
     pricePerItem: 4
   },
   {
-    id: 25,
-    name: "Garbage Bag",
-    image: "/images/garbage-bag.jpg",
-    description: "Heavy-duty waste collection bag.",
-    material: "Plastic",
-    size: "24x32 inch",
-    color: "Black",
-    pricePerItem: 10
-  },
+  id: 25,
+  name: "Plastic Zip lock",
+  image: "/images/zip-lock-plastic.jpg",
+  description: "Transparent plastic pouch for namkeen and dry snacks packing.",
+  material: "Plastic",
+  size: "Small",
+  color: "Transparent",
+  pricePerItem: 10
+},
   {
     id: 26,
     name: "Toothpick",
@@ -258,16 +238,6 @@ export const disposalItems = [
     size: "2.5 inch",
     color: "Brown",
     pricePerItem: 0.2
-  },
-  {
-    id: 27,
-    name: "Straw",
-    image: "/images/straw.jpg",
-    description: "Disposable straw for cold beverages.",
-    material: "Plastic",
-    size: "8 inch",
-    color: "Multicolor",
-    pricePerItem: 0.5
   },
   {
     id: 28,
@@ -290,29 +260,9 @@ export const disposalItems = [
     pricePerItem: 15
   },
   {
-    id: 30,
-    name: "Sweet Box",
-    image: "/images/sweet-box.jpg",
-    description: "Decorative box for sweets and gifts.",
-    material: "Paper",
-    size: "1 kg",
-    color: "Printed",
-    pricePerItem: 18
-  },
-  {
-    id: 31,
-    name: "Disposable Tray",
-    image: "/images/disposable-tray.jpg",
-    description: "Serving tray for catering events.",
-    material: "Plastic",
-    size: "14 inch",
-    color: "Silver",
-    pricePerItem: 25
-  },
-  {
     id: 32,
     name: "Paper Food Wrap",
-    image: "/images/food-wrap.jpg",
+    image: "/images/paper-food-wrap.jpg",
     description: "Food-grade wrapping sheet for snacks.",
     material: "Butter Paper",
     size: "12x12 inch",
@@ -339,15 +289,44 @@ export const disposalItems = [
     color: "White",
     pricePerItem: 6
   },
-  {
-    id: 35,
-    name: "Dessert Spoon",
-    image: "/images/dessert-spoon.jpg",
-    description: "Small spoon for sweets and desserts.",
-    material: "Plastic",
-    size: "4 inch",
-    color: "White",
-    pricePerItem: 0.5
-  }
+ {
+  id: 35,
+  name: "Dessert Spoon",
+  image: "/images/desert-spoon.jpg",
+  description: "Small spoon for sweets, ice cream and desserts.",
+  material: "Plastic",
+  size: "4 inch",
+  color: "White",
+  pricePerItem: 0.5
+},
+{
+  id: 36,
+  name: "Wooden Spoon",
+  image: "/images/wooden-spoon.jpg",
+  description: "Eco-friendly wooden spoon for serving food and desserts.",
+  material: "Wood",
+  size: "4 inch",
+  color: "Brown",
+  pricePerItem: 1
+},{
+  id: 37,
+  name: "Paper Glass 90ml",
+  image: "/images/paper-glass-90ml.jpg",
+  description: "Small disposable paper glass for tea and tasting samples.",
+  material: "Paper",
+  size: "90 ml",
+  color: "White",
+  pricePerItem: 1
+},
+{
+  id: 38,
+  name: "Paper Glass 250ml",
+  image: "/images/paper-glass-250ml.jpg",
+  description: "Large paper glass for cold drinks and juices.",
+  material: "Paper",
+  size: "250 ml",
+  color: "White",
+  pricePerItem: 2
+}
 ];
 
