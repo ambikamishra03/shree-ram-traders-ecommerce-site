@@ -15,7 +15,7 @@ const ProductCard = ({ item }) => {
           {item.name}
         </h2>
 
-        <p className="text-gray-600 text-sm mb-4">
+        <p className="text-gray-600 text-md mb-4">
           {item.description}
         </p>
 
