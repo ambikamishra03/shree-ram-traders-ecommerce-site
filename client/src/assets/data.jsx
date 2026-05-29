@@ -330,3 +330,303 @@ export const disposalItems = [
 }
 ];
 
+export const collections = [
+  {
+    id: 1,
+    category: "Plates",
+    image: "/images/buffet-plate.jpg",
+    description: "Different types of disposable plates for weddings and parties.",
+    items: [
+      {
+        id: 1,
+        name: "Buffet Plate",
+        size: "12 inch",
+        material: "Paper",
+        rate: 8
+      },
+      {
+        id: 2,
+        name: "Small Paper Plate",
+        size: "6 inch",
+        material: "Paper",
+        rate: 2
+      },
+      {
+        id: 3,
+        name: "Medium Paper Plate",
+        size: "8 inch",
+        material: "Paper",
+        rate: 3
+      },
+      {
+        id: 4,
+        name: "Large Paper Plate",
+        size: "10 inch",
+        material: "Paper",
+        rate: 5
+      },
+      {
+        id: 5,
+        name: "Chila Plate",
+        size: "6 inch",
+        material: "Paper",
+        rate: 3
+      },
+      {
+        id: 6,
+        name: "Chaumin Plate",
+        size: "7 inch",
+        material: "Paper",
+        rate: 5
+      },
+      {
+        id: 7,
+        name: "Compartment Plate",
+        size: "11 inch",
+        material: "Bagasse",
+        rate: 10
+      },
+      {
+        id: 8,
+        name: "Disposable Thali",
+        size: "12 inch",
+        material: "Bagasse",
+        rate: 12
+      }
+    ]
+  },
+
+  {
+    id: 2,
+    category: "Bowls",
+    image: "/images/soup-bowl.jpg",
+    description: "Disposable bowls for snacks, soups and chaat items.",
+    items: [
+      {
+        id: 1,
+        name: "Fulki Bowl",
+        size: "4 inch",
+        material: "Paper",
+        rate: 2
+      },
+      {
+        id: 2,
+        name: "Dona Bowl",
+        size: "6 inch",
+        material: "Paper",
+        rate: 1
+      },
+      {
+        id: 3,
+        name: "Soup Bowl",
+        size: "500 ml",
+        material: "Paper",
+        rate: 6
+      }
+    ]
+  },
+
+  {
+    id: 3,
+    category: "Glasses & Cups",
+    image: "/images/water-glass.jpg",
+    description: "Disposable glasses and cups for beverages.",
+    items: [
+      {
+        id: 1,
+        name: "Water Glass",
+        size: "250 ml",
+        material: "Plastic",
+        rate: 1
+      },
+      {
+        id: 2,
+        name: "Cold Drink Glass",
+        size: "300 ml",
+        material: "Plastic",
+        rate: 2
+      },
+      {
+        id: 3,
+        name: "Tea Glass",
+        size: "100 ml",
+        material: "Paper",
+        rate: 1
+      },
+      {
+        id: 4,
+        name: "Coffee Cup",
+        size: "200 ml",
+        material: "Paper",
+        rate: 3
+      },
+      {
+        id: 5,
+        name: "Paper Cup",
+        size: "150 ml",
+        material: "Paper",
+        rate: 2
+      },
+      {
+        id: 6,
+        name: "Ice Cream Cup",
+        size: "100 ml",
+        material: "Paper",
+        rate: 2
+      },
+      {
+        id: 7,
+        name: "Paper Glass 90ml",
+        size: "90 ml",
+        material: "Paper",
+        rate: 1
+      },
+      {
+        id: 8,
+        name: "Paper Glass 250ml",
+        size: "250 ml",
+        material: "Paper",
+        rate: 2
+      }
+    ]
+  },
+
+  {
+    id: 4,
+    category: "Cutlery",
+    image: "/images/plastic-spoon.jpg",
+    description: "Disposable spoons, forks and knives.",
+    items: [
+      {
+        id: 1,
+        name: "Plastic Spoon",
+        size: "6 inch",
+        material: "Plastic",
+        rate: 1
+      },
+      {
+        id: 2,
+        name: "Plastic Fork",
+        size: "6 inch",
+        material: "Plastic",
+        rate: 1
+      },
+      {
+        id: 3,
+        name: "Plastic Knife",
+        size: "6 inch",
+        material: "Plastic",
+        rate: 1
+      },
+      {
+        id: 4,
+        name: "Dessert Spoon",
+        size: "4 inch",
+        material: "Plastic",
+        rate: 0.5
+      },
+      {
+        id: 5,
+        name: "Wooden Spoon",
+        size: "4 inch",
+        material: "Wood",
+        rate: 1
+      },
+      {
+        id: 6,
+        name: "Toothpick",
+        size: "2.5 inch",
+        material: "Wood",
+        rate: 0.2
+      }
+    ]
+  },
+
+  {
+    id: 5,
+    category: "Packaging",
+    image: "/images/food-container.jpg",
+    description: "Packaging and takeaway disposable products.",
+    items: [
+      {
+        id: 1,
+        name: "Food Container",
+        size: "500 ml",
+        material: "Plastic",
+        rate: 12
+      },
+      {
+        id: 2,
+        name: "Carry Bag",
+        size: "Medium",
+        material: "Plastic",
+        rate: 4
+      },
+      {
+        id: 3,
+        name: "Namkeen Plastic",
+        size: "Small",
+        material: "Plastic",
+        rate: 10
+      },
+      {
+        id: 4,
+        name: "Aluminium Container",
+        size: "750 ml",
+        material: "Aluminium",
+        rate: 15
+      },
+      {
+        id: 5,
+        name: "Aluminium Foil Container",
+        size: "500 ml",
+        material: "Aluminium",
+        rate: 12
+      },
+      {
+        id: 6,
+        name: "Paper Food Wrap",
+        size: "12x12 inch",
+        material: "Butter Paper",
+        rate: 1
+      },
+      {
+        id: 7,
+        name: "Silver Foil Roll",
+        size: "18 meter",
+        material: "Aluminium",
+        rate: 120
+      }
+    ]
+  },
+
+  {
+    id: 6,
+    category: "Cleaning & Tissue",
+    image: "/images/tissue-paper.jpg",
+    description: "Cleaning and hygiene disposable items.",
+    items: [
+      {
+        id: 1,
+        name: "Tissue Paper",
+        size: "10x10 inch",
+        material: "Paper",
+        rate: 0.5
+      },
+      {
+        id: 2,
+        name: "Paper Napkin",
+        size: "12x12 inch",
+        material: "Paper",
+        rate: 1
+      },
+      {
+        id: 3,
+        name: "Tissue Roll",
+        size: "Standard",
+        material: "Paper",
+        rate: 35
+      }
+    ]
+  }
+];

@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 import {
   faMagnifyingGlass,
   faCartShopping,
@@ -28,12 +29,12 @@ const Navbar = () => {
           </div>
           {/* Nav Links */}
           <div className="hidden md:flex items-center gap-10 backdrop-blur-md px-8 py-3">
-            <a
-              href="#"
+            <Link
+              to="/"
               className="text-white font-medium transition-all duration-300 hover:scale-125 inline-block"
             >
               Home
-            </a>
+            </Link>
 
             <a
               href="#"
@@ -42,12 +43,12 @@ const Navbar = () => {
               About
             </a>
 
-            <a
-              href="#"
+            <Link
+              to="/collection"
               className="text-white font-medium transition-all duration-300 hover:scale-125 inline-block"
             >
               Collection
-            </a>
+            </Link>
 
             <a
               href="#"
