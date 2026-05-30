@@ -50,12 +50,12 @@ const Navbar = () => {
               Collection
             </Link>
 
-            <a
-              href="#"
+            {/* <Link
+              to="/contact"
               className="text-white font-medium transition-all duration-300 hover:scale-125 inline-block"
             >
               Contact
-            </a>
+            </Link> */}
           </div>
           {/* icons  */}
           <div className="flex items-center gap-4">

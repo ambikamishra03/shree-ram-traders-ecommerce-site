@@ -58,7 +58,7 @@ const Footer = () => {
                   className="text-yellow-300"
                 />
                 <span className="text-sm">
-                  ambikamishra9236@gmail.com
+                  ramjaya478@gmail.com
                 </span>
               </div>
 
@@ -68,7 +68,7 @@ const Footer = () => {
                   className="text-green-300"
                 />
                 <span className="text-sm">
-                  +91 9236728130
+                  +91 xxxxxxxxxx
                 </span>
               </div>
 

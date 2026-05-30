@@ -1,6 +1,8 @@
 import Navbar from "../components/Navbar";
 import { collections } from "../assets/data";
 import CollectionCard from "../components/CollectionCard";
+import Footer from "../components/Footer"
+
 
 const Collection = () => {
   return (
@@ -29,6 +31,7 @@ const Collection = () => {
 
         </div>
       </section>
+      <Footer/>
     </>
   );
 };

@@ -45,11 +45,15 @@ const Dashboard = () =>{
         </p>
 
         <div className="flex flex-wrap gap-4 mt-8">
-          <button className="bg-yellow-400 text-gray-900 font-semibold px-8 py-3 rounded-xl hover:scale-105 transition">
+          <button 
+          onClick={scrollToProducts}
+          className="bg-yellow-400 text-gray-900 font-semibold px-8 py-3 rounded-xl hover:scale-105 transition">
             Explore Products
           </button>
 
-          <button className="border border-white px-8 py-3 rounded-xl hover:bg-white hover:text-blue-800 transition">
+          <button 
+          onClick={scrollToFooter}
+          className="border border-white px-8 py-3 rounded-xl hover:bg-white hover:text-blue-800 transition">
             Contact Us
           </button>
         </div>
@@ -88,5 +92,11 @@ const Dashboard = () =>{
 </section>
 </>
     )
+}
+const scrollToProducts = () =>{
+  document.getElementById("product-section")?.scrollIntoView({behavior:"smooth"});
+}
+const scrollToFooter = () =>{
+  document.getElementById("footer-section")?.scrollIntoView({behavior:"smooth"});
 }
 export default Dashboard;
