@@ -59,17 +59,18 @@ const Navbar = () => {
           </div>
           {/* icons  */}
           <div className="flex items-center gap-4">
-            <button className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center hover:bg-blue hover:text-blue-700 hover:scale-110 transition-all duration-300">
+            <button className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center hover:bg-blue hover:text-blue-700 hover:scale-110 transition-all duration-300 cursor-pointer">
               <FontAwesomeIcon
                 icon={faMagnifyingGlass}
                 className="text-white text-lg"
               />
             </button>
-            <button className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center hover:bg-blue hover:text-blue-700 hover:scale-110 transition-all duration-300">
+            <button className="w-12 h-12 rounded-full bg-white/20 backdrop-blur-md border border-white/30 flex items-center justify-center hover:bg-blue hover:text-blue-700 hover:scale-110 transition-all duration-300 cursor-pointer">
               <FontAwesomeIcon icon={faUser} className="text-white text-lg" />
             </button>
 
-            <button className="relative w-12 h-12 rounded-full bg-white flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-lg">
+           <Link to="/cart">
+            <button className="relative w-12 h-12 rounded-full bg-white flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-lg cursor-pointer">
               <FontAwesomeIcon
                 icon={faCartShopping}
                 className="text-blue-700 text-lg"
@@ -78,7 +79,7 @@ const Navbar = () => {
               <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
                 0
               </span>
-            </button>
+            </button></Link>
           </div>
         </div>
       </nav>
