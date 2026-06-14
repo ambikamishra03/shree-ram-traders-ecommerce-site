@@ -36,12 +36,12 @@ const Navbar = () => {
               Home
             </Link>
 
-            <a
-              href="#"
+            <Link
+              to="/about"
               className="text-white font-medium transition-all duration-300 hover:scale-125 inline-block"
             >
               About
-            </a>
+            </Link>
 
             <Link
               to="/collection"
