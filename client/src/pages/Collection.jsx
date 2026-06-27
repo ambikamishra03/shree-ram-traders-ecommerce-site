@@ -1,10 +1,14 @@
 import Navbar from "../components/Navbar";
 import { collections } from "../assets/data";
 import CollectionCard from "../components/CollectionCard";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
+import { useState } from "react";
+import Dialog from "../components/Dialog";
 
 
 const Collection = () => {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [selectedItem, setSelectedItem] = useState(null);
   return (
     <>
       <Navbar />
@@ -25,12 +29,23 @@ const Collection = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {collections.map((item) => (
-              <CollectionCard key={item.id} item={item} />
+              <CollectionCard key={item.id} item={item} onShowMore={() => {
+                setSelectedItem(item);
+                setIsDialogOpen(true);
+              }
+              }/>
             ))}
           </div>
 
         </div>
       </section>
+      <Dialog 
+      isOpen={isDialogOpen} item={selectedItem}
+      onClose = {() =>{
+        setIsDialogOpen(false);
+        setSelectedItem(null);
+      }}
+      />
       <Footer/>
     </>
   );

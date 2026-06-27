@@ -1,8 +1,6 @@
-import { useState } from "react";
-import Dialog from "./Dialog";
 
-const CollectionCard = ({ item }) => {
-  const [isDialogOpen,setIsDialogOpen ] = useState(false);
+
+const CollectionCard = ({ item, onShowMore  }) => {
   return (
     <div className="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 border border-blue-100">
 
@@ -52,12 +50,10 @@ const CollectionCard = ({ item }) => {
         {/* Button */}
         <button
           className="w-full bg-gradient-to-r from-blue-700 to-blue-500 text-white py-3 rounded-xl font-semibold text-lg hover:from-blue-800 hover:to-blue-600 transition-all duration-300 shadow-md hover:shadow-xl"
-          onClick={() => setIsDialogOpen(true)}
+          onClick={onShowMore}
         >
           Show More →
         </button>
-        <Dialog isOpen={isDialogOpen} onClose={()=> setIsDialogOpen(false)} item = {item}/>
-
       </div>
     </div>
   );
