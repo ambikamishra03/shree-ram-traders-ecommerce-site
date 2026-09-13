@@ -1,4 +1,7 @@
+import { useCart } from "../context/CartContext";
+
 const ProductCard = ({ item }) => {
+  const { addToCart } = useCart();
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden border border-gray-100 hover:-translate-y-1">
       
@@ -41,7 +44,7 @@ const ProductCard = ({ item }) => {
             ₹{item.pricePerItem}
           </span>
 
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition" onClick={() => addToCart(item,1)}>
             Add to Cart
           </button>
         </div>

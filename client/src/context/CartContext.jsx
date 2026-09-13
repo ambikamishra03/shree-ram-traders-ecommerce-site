@@ -2,7 +2,7 @@ import { Children, createContext, useContext, useEffect, useState } from "react"
 
 const CartContext = createContext();
 
-const CartProvider = ({ children }) =>{
+export const CartProvider = ({ children }) =>{
    // get previoulsy saved cart items
    const [ cartItems , setCartItems ] = useState(()=>{
     const savedCart = localStorage.getItem("cartItems");
